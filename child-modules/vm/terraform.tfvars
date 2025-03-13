@@ -7,8 +7,8 @@ vm = {
     zone = "asia-south1-a"
     tags = ["iap"]
     labels = {stage ="dev"}
-    image = "debian-cloud/debian-11"
-    size = "10"
+    image = "windows-cloud/windows-2022"
+    size = "50"
     network = "demo-vpc"
     subnetwork = "demo-subnet"
     subnetwork_project = "cloudside-academy"
